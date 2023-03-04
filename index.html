@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donate | NGO Name</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Donate to NGO Name</h1>
+		<nav>
+			<!-- <a href="#">Home</a>
+			<a href="#">Projects</a>
+			<a href="#">About Us</a>
+			<a href="#">Contact Us</a> -->
+		</nav>
+	</header>
+	<main>
+		<section id="donation-form">
+			<h2>Make a Donation</h2>
+			<form>
+				<label for="name ">Name</label>
+				<input type="text" id="card-expiry" name="card-expiry" required>
+				<label for="e-mail">E-Mail</label>
+				<input type="text" id="card-expiry" name="card-expiry" required>
+				<label for="amount">Amount</label>
+				<input type="number" id="amount" name="amount" min="1" step="1" required>
+				<label for="currency">Currency</label>
+				<select id="currency" name="currency" required>
+					<option value="USD">USD</option>
+					<option value="EUR">EUR</option>
+					<option value="Rupees">Rupees</option>
+				</select>
+				<label for="card-number">Card Number</label>
+				<input type="text" id="card-number" name="card-number" required>
+				<label for="card-expiry">Card Expiry</label>
+				<input type="text" id="card-expiry" name="card-expiry" required>
+				<label for="card-cvv">Card CVV</label>
+				<input type="text" id="card-cvv" name="card-cvv" required>
+				<button type="submit">Donate Now</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 CODE_X. All rights reserved.</p>
+	</footer>
+</body>
+</html>
